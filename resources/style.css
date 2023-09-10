@@ -4,18 +4,28 @@
     overflow: hidden;
 }
 
-.container{
-    width: 100%;
+.big-container{
+    width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colors-container{
+    width: 60%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .color-box{
-    height: 100px;
+    width: 33%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 21px;
 }
 
 .col-1{
@@ -32,6 +42,7 @@
 
 .col-4{
     background-color: #262626; 
+    color: white;
 }
 
 .col-5{
@@ -40,6 +51,7 @@
 
 .col-6{
     background-color: #262161; 
+    color: white;
 }
 
 .col-7{
@@ -60,6 +72,7 @@
 
 .col-11{
     background-color: #5c4682; 
+    color: white;
 }
 
 .col-12{
@@ -72,4 +85,5 @@
 
 .col-14{
     background-color: #941251; 
+    color: white;
 }
