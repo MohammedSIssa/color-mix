@@ -1,31 +1,33 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .big-container{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .colors-container{
-    width: 60%;
+    width: 95%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .color-box{
-    width: 33%;
-    height: auto;
+    width: 31%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 21px;
+    margin: 10px;
+    border: 3px dashed black;
 }
 
 .col-1{
