@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -28,6 +30,7 @@
     font-size: 21px;
     margin: 10px;
     border: 3px dashed black;
+    font-family: 'Muli', 'Courier New', Courier, monospace;
 }
 
 .col-1{
